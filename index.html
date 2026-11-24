@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For Sammie ✦ A World of Your Own</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@500&family=Pinyon+Script&family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/styles.css"></head><body>
+<div id="stars"></div>
+<div id="s-intro"><div id="stage"><div id="lbl"></div><div id="word"></div><div id="fin">for Sammie,<br>turning twenty</div></div><div id="tap" class="hide">tap to begin</div></div>
+<audio id="ia" preload="auto" src="assets/audio/intro-birthday.mp3"></audio>
+<button id="music" aria-label="Toggle music">♪</button>
+
+<section class="scene on" id="s-cal">
+  <h1>Sammie</h1><div class="sub">find the night that’s yours</div>
+  <div class="cal">
+    <div class="cal-h"><button id="py" aria-label="Previous year">«</button><button id="pm" aria-label="Previous month">‹</button><b id="ml"></b><button id="nm" aria-label="Next month">›</button><button id="ny" aria-label="Next year">»</button></div>
+    <div class="grid" id="grid"></div>
+  </div>
+  <p class="msg" id="msg"></p>
+</section>
+
+<section class="scene" id="s-pin">
+  <div class="pin">
+    <h1>One more thing…</h1><div class="sub">only you know this one</div>
+    <input id="pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="off" aria-label="Four digit PIN">
+    <div class="keys" id="keys"></div>
+    <p class="msg" id="pmsg"></p>
+    <button class="ghost" id="back">← back to the calendar</button>
+  </div>
+</section>
+
+<section class="scene" id="s-letter">
+  <div id="fit"><div id="book"></div><button class="nav" id="prev" aria-label="Previous page">‹</button><button class="nav" id="next" aria-label="Next page">›</button></div>
+</section>
+
+<audio id="au" loop preload="auto" src="assets/audio/background-song.mp3"></audio>
+<script type="application/json" id="letter">["For the man who just turned twenty. ♡", "Happppyyyy birthdayyyy, mera baccha! Umm, baby, I guess? Maybe Sammie? Uhhh, babu? Mera kuchuuu puchuuu babu ka happy wala birthday hai aaj toh! Hehehe.", "I know, I know. Tumhe apne birthday ko lekar utni excitement nahi hogi. And I'm pretty sure tum yeh bhi soch rahe hoge ki kitni velli insaan hoon main, ki handwritten letters ke zamaane mein bhi app-written letters de rahi hoon. Well, baccha, there's actually a reason behind it.", "I feel like agar handwritten letter deti na, toh uske apne consequences hote. Jo mujhe likhna hota, jo bolna hota, woh shayad kabhi likh hi nahi paati. Maybe because of the people around us, maybe because of the circumstances, or maybe because some things are just easier to express when you don't have to worry about someone reading over your shoulder.", "So I thought, why not make something that you can keep forever? Something that's just yours. Even if someday we part ways, even if we somehow lose touch, I want to keep updating this little corner of the internet every year on your birthday and only for you. As long as this little creation keeps getting better, of course. Heheheee.", "That way, no matter where life takes you, you'll always have a little reminder that there's someone out here who wishes nothing but the best for you. Someone who wants you to feel loved, cared for and remembered, even from miles away.", "I genuinely pray to every possible lord in this universe that you always stay happy. That you always find reasons to smile, that you feel understood, and that you never have to feel like some lonely, lost kid in the middle of a forest, trying to figure everything out by himself.", "And if you ever feel like the world is falling apart, you come to me. No matter what, I'll always be there for you.", "I still remember how everything started with a question mark, then your SS, and then you forgetting to get me that huge chocolate for the next five days straight. 😭", "I remember the days we sat beside each other, me tattooing the most stupid drawings on your hand, you letting me absolutely ruin your book, and you buying me food all the time.", "I miss those days. A LOT.", "I know things will probably never go back to how they used to be, and maybe that's just how things are supposed to be. Par honestly, it was really good when it was like that.", "I've had all of my happiest moments with you, Sammie. And in almost two years, there hasn't really been a moment when I genuinely felt like I would be sad because of you, or that you were someone who could ruin my mood. Well, not even when you ruined Bunku's face or when you didn't call me for the stand-up and the Diwali party. (Bhuli nahi hoon, baby. Don't get too comfortable. 😭)", "I just genuinely love spending time with you. I love being all cheesy and clingy around you, babying you for absolutely no reason, watching you fall asleep in my arms, getting ragebaited by you, feeding you food, dancing with you, and constantly forcing you to go out with me.", "I love making you hold my hand when no one's around, and honestly, one of my favourite things is just walking beside you, no matter how much tadka the weather decides to throw at us.", "It's never really had to be about doing something extraordinary. Sometimes it's just the stupidest little things with you that end up becoming my favourite memories.", "And I think that's what I miss the most. Not necessarily how things used to be, but how effortlessly happy the simplest moments with you could make me.", "I don't think you've ever really seen this side of me, have you? The long-paragraph, slightly cheesy, thoda zyada pyaar jatane wali side. Maybe because we never really got the chance, or maybe I never found the right moment to say all of this.", "I wish I could've surprised you exactly at 12 AM, been there to see your reaction and probably annoyed you with a million hugs and kisses. But for now, just imagine kar lena, okay? Consider this your virtual surprise. Thoda imagination use karlo, babu. 😭❤️", "So here's to twenty.", "To all the things you've survived, all the things you're yet to experience, all the places you'll go, the people you'll meet, and the person you'll continue becoming.", "I hope twenty is gentle with you. I hope it surprises you in the nicest ways. And I hope when you look back at this year, you have a hundred little reasons to be grateful that you lived it.", "Happy 20th birthday, mera kuchuuu puchuuu babu.", "Keep smiling, keep growing, keep being you.", "And please, never forget that you deserve all the love this world has to offer. Even on the days you find it difficult to believe that. ♡"]</script>
+<script type="module" src="/src/main.js"></script></body></html>
